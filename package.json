@@ -1,0 +1,19 @@
+{
+  "name": "emgp-cordova-plugin-mergeandroidmanifest",
+  "version": "1.0.0",
+  "description": "Merge AndroidManifest",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Eduardo Pires",
+  "license": "MIT",
+  "homepage": "https://lcs.valantic.com",
+  "cordova": {
+    "id": "emgp-cordova-plugin-mergeandroidmanifest",
+    "platforms": [
+      "android"
+    ]
+  }
+}

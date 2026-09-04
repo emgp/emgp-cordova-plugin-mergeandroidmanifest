@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="emgp-cordova-plugin-mergeandroidmanifest" version="1.0.0">
+
+  <name>emgp-cordova-plugin-mergeandroidmanifest</name>
+
+  <description>This plugin is used to manipulate the AndroidManifest.xml</description>
+  <author>Eduardo Pires</author>
+  <keywords>AndroidManifest</keywords>
+
+  <license>MIT</license>
+
+  <!-- android -->
+  <platform name="android">
+    <edit-config file="AndroidManifest.xml"
+                 target="/manifest/application"
+                 mode="merge">
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_notification" />
+    </edit-config>
+  </platform>
+</plugin>
